@@ -1,3 +1,4 @@
+/* Accordion Buttons */
 var acc = document.getElementsByClassName("accordion");
 var i;
 
@@ -16,3 +17,10 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
+
+/* Changing Copyright Year */
+const currentYear = document.getElementById('currentyear')
+let date = new Date();
+let year = date.getFullYear();
+
+currentYear.innerHTML = '&copy; ' + year + ' Company Name. All rights reserved.';
