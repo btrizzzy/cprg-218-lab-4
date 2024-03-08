@@ -23,4 +23,4 @@ const currentYear = document.getElementById('currentyear')
 let date = new Date();
 let year = date.getFullYear();
 
-currentYear.innerHTML = '&copy; ' + year + ' Company Name. All rights reserved.';
+currentYear.innerHTML = '&copy; ' + year + ' Briana Truong. All rights reserved.';
